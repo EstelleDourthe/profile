@@ -1,0 +1,98 @@
+.container{
+  width: 400px;
+  margin: 20px auto;
+}
+
+.card, .card2 {
+  text-align: center;
+  background-color: #FFF5FD;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px #716F81;
+  margin-top: 20px;
+}
+
+.card {
+    padding: 5px 15px 35px 15px;
+}
+
+.card2 {
+  padding: 5px 15px 7px 15px;
+}
+
+body {
+  background-image: url("images/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #716F81;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  font-size: 45px;
+}
+
+p {
+  color: #716F81;
+  font-family: 'Style Script', cursive;
+  font-size: 35px;
+}
+
+.profile-picture {
+  width: 180px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #716F81 ;
+}
+
+.le-wagon {
+  color: #FFF5FD;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  background-color: #787A91;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.le-wagon:hover {
+  background-color: #F8485E;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #F8485E;
+}
+
+.navigation > li {
+  display: inline;
+  list-style: none;
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+.navigation > li > a {
+  color: #716F81;
+}
+
+ul {
+  padding: 0;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
